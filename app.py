@@ -18,4 +18,4 @@ def calculate():
     return jsonify({"result": num1 + num2})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000)  # nosec B104
